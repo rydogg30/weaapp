@@ -3,9 +3,7 @@ import {
     NavLogo,
     NavLink,
     Bars,
-    NavMenu,
-    NavBtn,
-    NavBtnLink,
+    NavMenu
 } from "./NavbarElements";
 
 
@@ -37,15 +35,10 @@ const Navbar = () => {
                 >
                     Contact
                 </NavLink>
-                <NavLink
-                  to="/signin"
-                  activeStyle={{ color: 'black' }}
-                >
-                    Sign In
-                </NavLink>
-                <NavBtn>
+               
+                {/* <NavBtn>
                     <NavBtnLink to="/sign-up">Sign Up</NavBtnLink>
-                </NavBtn>
+                </NavBtn> */}
             </NavMenu>
            </Nav> 
         </>

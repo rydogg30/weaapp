@@ -1,15 +1,17 @@
+import ContactForm from "../components/Contact";
+
+
 const Contact = () => {
     return (
         <div
             style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100vh'
+                display: 'block',
+                
             }}
         >
-           <h1>Contact Us</h1>
-           <hr /> 
+            <h1 style={{fontWeight: "bold"}}>Contact Us</h1>
+            <hr />
+            <ContactForm />
         </div>
     );
 };

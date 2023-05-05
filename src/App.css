@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.profile-image {
+  width: 10%;
+}
+.gallery {
+  display: grid;
+  overflow: hidden;
+}
+.gallery img{
+  
+  max-width: 300px;
+}

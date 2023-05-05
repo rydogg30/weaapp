@@ -1,14 +1,20 @@
+import React from "react";
+import Gallery from "../components/PhotoAlbum"
+
+
+
 const About = () => {
     return (
         <div
             style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100vh'
+                display: 'block',
+                
             }}
         >
-            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, totam.</h1>
+            <h1 style={{fontWeight: "bold"}}>About Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1>Photo Gallery</h1>
+            <Gallery />
         </div>
     );
 };
